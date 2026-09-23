@@ -8,7 +8,7 @@ the curve a careful builder would get, not the order this repository happens to 
 The first two families keep nothing, which is not padding — it is the shape of a rule that needs
 three independent sources.
 
-Candidates: 589,422. Shipped: 75,991.
+Candidates: 589,422. Shipped: 100,784.
 
 Of 16 families, **15 can be checked by fetching** —
 a stable identifier or a page we fetched ourselves. The other 1 are crawls
@@ -18,20 +18,20 @@ it is their published corpus, not the web.
 | families | added | kept | coverage | gained |
 | --- | --- | --- | --- | --- |
 | 1 | `wikimedia` | 0 | 0.0% | — |
-| 2 | `leipzig` | 0 | 0.0% | — |
-| 3 | `internetarchive` | 47,456 | 8.1% | +47,456 |
-| 4 | `looming.ee` | 57,835 | 9.8% | +10,379 |
-| 5 | `sirp.ee` | 65,458 | 11.1% | +7,623 |
-| 6 | `err.ee` | 68,126 | 11.6% | +2,668 |
-| 7 | `ebible` | 69,898 | 11.9% | +1,772 |
-| 8 | `delfi.ee` | 71,441 | 12.1% | +1,543 |
-| 9 | `aripaev.ee` | 72,851 | 12.4% | +1,410 |
-| 10 | `postimees.ee` | 74,111 | 12.6% | +1,260 |
-| 11 | `ohtuleht.ee` | 74,843 | 12.7% | +732 |
-| 12 | `lounaeestlane.ee` | 75,370 | 12.8% | +527 |
-| 13 | `tatoeba` | 75,730 | 12.8% | +360 |
-| 14 | `gutenberg` | 75,869 | 12.9% | +139 |
-| 15 | `eestinaine.ee` | 75,991 | 12.9% | +122 |
-| 16 | `pealinn.ee` | 75,991 | 12.9% | — |
+| 2 | `internetarchive` | 0 | 0.0% | — |
+| 3 | `leipzig` | 79,106 | 13.4% | +79,106 |
+| 4 | `looming.ee` | 87,616 | 14.9% | +8,510 |
+| 5 | `sirp.ee` | 93,118 | 15.8% | +5,502 |
+| 6 | `ebible` | 94,965 | 16.1% | +1,847 |
+| 7 | `err.ee` | 96,505 | 16.4% | +1,540 |
+| 8 | `delfi.ee` | 97,539 | 16.5% | +1,034 |
+| 9 | `aripaev.ee` | 98,517 | 16.7% | +978 |
+| 10 | `postimees.ee` | 99,361 | 16.9% | +844 |
+| 11 | `ohtuleht.ee` | 99,873 | 16.9% | +512 |
+| 12 | `lounaeestlane.ee` | 100,238 | 17.0% | +365 |
+| 13 | `tatoeba` | 100,531 | 17.1% | +293 |
+| 14 | `gutenberg` | 100,685 | 17.1% | +154 |
+| 15 | `eestinaine.ee` | 100,784 | 17.1% | +99 |
+| 16 | `pealinn.ee` | 100,784 | 17.1% | — |
 
-**Diminishing returns from family 7** (`ebible`, +1,772), where a family first added less than a twentieth of what the best one did.
+**Diminishing returns from family 6** (`ebible`, +1,847), where a family first added less than a twentieth of what the best one did.

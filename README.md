@@ -5,7 +5,7 @@ The Estonian word list, and the evidence for every word in it.
 Built by [`blinkered-attestation`](https://github.com/blinkered/blinkered-attestation). The rule,
 the evidence format and the reasoning live there; what lives here is Estonian.
 
-**75,991 of 589,422 candidates proved: 12.9%**, across 16 independent
+**100,784 of 589,422 candidates proved: 17.1%**, across 16 independent
 families, 15 of which a stranger could check by fetching.
 
 ## What is in this repository
@@ -43,42 +43,44 @@ where to get it again, which is what makes the downloads disposable.
 
 **The candidate list is 589,422 words, and that is the whole story of the number.** Estonian has
 fourteen cases and productive compounding, and its Hunspell dictionary generates the forms. The
-Wikipedia sees 291,995 of them and Leipzig 105,493; after that every family is small, so most
-words stop at two. 69,528 of the dropped words are one family short.
+Wikipedia sees 291,995 of them and Leipzig 105,493; after that every family is small, so most words
+stop at two. 88,578 of the dropped words are one family short.
 
-**The ready-made families ran out at 2.8%.** Built from Wikipedia, Leipzig, Tatoeba (a few
-thousand sentences), a New Testament, one Gutenberg text and a thin Archive shelf, the list kept
-16,311 words. A harvest of ten Estonian publishers took it to 12.9%. The literary and cultural
-weeklies were worth the most, as they have been elsewhere: *Looming* and *Sirp* rescued 18,000
-words between them, the news sites a few thousand each. Each publisher is its own family, which is
-why this repository has sixteen. `searched.tsv` records counts per page, never text.
+**The ready-made families ran out at 2.8%.** Built from Wikipedia, Leipzig, Tatoeba (a few thousand
+sentences), a New Testament, one Gutenberg text and a near-empty Archive shelf, the list kept
+16,311 words. A harvest of ten Estonian publishers took it to 12.9%, and 117 Archive books to
+17.1%. Among the publishers the literary and cultural weeklies were worth the most, as they have
+been elsewhere: *Looming* and *Sirp* rescue 14,000 words between them, the news sites a thousand or
+so each. Each publisher is its own family, which is why this repository has sixteen. `searched.tsv`
+records counts per page, never text.
 
 **The Archive shelf is queried by ISO code.** Among the most downloaded items the Archive files
 under the English name "Estonian", none of the top fifteen was Estonian; they are Hindi, Urdu and
-Arabic uploads. `language:est` finds University of Toronto scans and Estonian literature. The shelf
-was also weeded by function words, and a dictionary is removed by name: a dictionary prints the
-candidate list back as headwords, which is not usage.
+Arabic uploads. `language:est` finds University of Toronto scans and Estonian literature, and also
+a good deal of other languages' uploads. The shelf was weeded by function words, which left 117
+books of 265 fetched, and a dictionary is removed by name: a dictionary prints the candidate list
+back as headwords, which is not usage.
 
 **Š and Ž do not appear in the shipped list, by design twice over.** The engine folds them onto S
-and Z because they occur only in borrowings and are not tiles. The candidate list carries
-their spelling as a display form (ATASEE shown as ATAŠEE, MATSI as MATŠI), and the shared build
-writes only the key, so the display form is dropped here as it is in every language. The words
-ship: ATASEE and MATSI are both in `words.txt`. Every tile of the Estonian alphabet spells
-something except **Q** and **X**. That is not a fold bug. The 99 candidates containing them are
-names and borrowings (TEQUILAT, BAXTERIGA, ALBUQUERQUEST) and none reached three families.
+and Z because they occur only in borrowings and are not tiles. The candidate list carries their
+spelling as a display form (ATASEE shown as ATAŠEE, MATSI as MATŠI), and the shared build writes
+only the key, so the display form is dropped here as it is in every language. The words ship:
+ATASEE and MATSI are both in `words.txt`. Every tile of the Estonian alphabet spells something
+except **Q**. That is not a fold bug: the 34 candidates containing it are names and borrowings
+(TEQUILAT, ALBUQUERQUEST) and none reached three families. X ships only in names (FOXI, NIXONI).
 
-**Some Wikipedia markup reads as words.** NAME is seen 520,861 times in the Wikipedia, which is
-the `name=` of citation tags rather than Estonian, and PAGES 2,231 times in Wikisource, which is
-its `<pages>` transclusion tag. Both still reached three families (a book and a harvested page
-each), and both rank far higher than any Estonian reader would put them. The fix belongs in the
-shared Wikipedia reader.
+**Some Wikipedia markup reads as words.** NAME is seen 520,861 times in the Wikipedia, which is the
+`name=` of citation tags rather than Estonian, and PAGES 2,231 times in Wikisource, which is its
+`<pages>` transclusion tag. Both still reached three families (a book and a harvested page each),
+and both rank far higher than any Estonian reader would put them. The fix belongs in the shared
+Wikipedia reader.
 
 **No FineWeb-2.** A Common Crawl family is the one collection big enough to move a list this size,
 and its 4.8GB shard was not fetched because the disk was nearly full. It is declared in
 `sources.mjs` and skipped when absent.
 
-Of the 513,431 dropped candidates, 69,528 were seen by two families and are one short;
-166,271 were seen by one, and 277,632 by none at all.
+Of the 488,638 dropped candidates, 88,578 were seen by two families and are one short;
+140,845 were seen by one, and 259,215 by none at all.
 
 ## Rebuilding
 

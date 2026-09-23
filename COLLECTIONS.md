@@ -13,8 +13,8 @@ collection rather than reuse its record only has to put the file back where the 
 | collection | tokens | what it is | where it came from |
 | --- | ---: | --- | --- |
 | `wiki:et` | 56,872,163 | Estonian Wikipedia; modern encyclopedic prose | [etwiki.xml.bz2](https://dumps.wikimedia.org/etwiki/latest/etwiki-latest-pages-articles.xml.bz2) |
+| `ia` | 6,124,395 | Internet Archive Estonian books; literature, and the register a newspaper never reaches | [archive-et](https://archive.org/search?query=language%3Aest%20AND%20mediatype%3Atexts) |
 | `lz:est_newscrawl_2017_1M` | 1,685,587 | Leipzig est_newscrawl_2017_1M; modern news, cited by the page each sentence came from | [est_newscrawl_2017_1M](https://downloads.wortschatz-leipzig.de/corpora/est_newscrawl_2017_1M.tar.gz) |
-| `ia` | 943,424 | Internet Archive Estonian books; literature, and the register a newspaper never reaches | [archive-et](https://archive.org/search?query=language%3Aest%20AND%20mediatype%3Atexts) |
 | `wikisource:et` | 463,507 | Estonian Wikisource; same Wikimedia family, so it corroborates rather than counts | [etwikisource.xml.bz2](https://dumps.wikimedia.org/etwikisource/latest/etwikisource-latest-pages-articles.xml.bz2) |
 | `lz:est_news_2022_300K` | 362,775 | Leipzig est_news_2022_300K; modern news, cited by the page each sentence came from | [est_news_2022_300K](https://downloads.wortschatz-leipzig.de/corpora/est_news_2022_300K.tar.gz) |
 | `web:looming.ee` | 318,891 |  | fetched from `looming.ee`, recorded in `searched.tsv` |
