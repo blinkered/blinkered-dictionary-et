@@ -1,0 +1,128 @@
+{
+  "language": "et",
+  "built": "2026-09-23",
+  "candidates": 589422,
+  "shipped": 75991,
+  "ships": "pending",
+  "decided": null,
+  "why": null,
+  "license": "CC0-1.0",
+  "conforms": true,
+  "families": 16,
+  "checkable": 15,
+  "knee": 7,
+  "steps": [
+    {
+      "families": 1,
+      "added": "wikimedia",
+      "kept": 0,
+      "share": 0,
+      "gained": 0
+    },
+    {
+      "families": 2,
+      "added": "leipzig",
+      "kept": 0,
+      "share": 0,
+      "gained": 0
+    },
+    {
+      "families": 3,
+      "added": "internetarchive",
+      "kept": 47456,
+      "share": 0.080513,
+      "gained": 47456
+    },
+    {
+      "families": 4,
+      "added": "looming.ee",
+      "kept": 57835,
+      "share": 0.098122,
+      "gained": 10379
+    },
+    {
+      "families": 5,
+      "added": "sirp.ee",
+      "kept": 65458,
+      "share": 0.111055,
+      "gained": 7623
+    },
+    {
+      "families": 6,
+      "added": "err.ee",
+      "kept": 68126,
+      "share": 0.115581,
+      "gained": 2668
+    },
+    {
+      "families": 7,
+      "added": "ebible",
+      "kept": 69898,
+      "share": 0.118587,
+      "gained": 1772
+    },
+    {
+      "families": 8,
+      "added": "delfi.ee",
+      "kept": 71441,
+      "share": 0.121205,
+      "gained": 1543
+    },
+    {
+      "families": 9,
+      "added": "aripaev.ee",
+      "kept": 72851,
+      "share": 0.123597,
+      "gained": 1410
+    },
+    {
+      "families": 10,
+      "added": "postimees.ee",
+      "kept": 74111,
+      "share": 0.125735,
+      "gained": 1260
+    },
+    {
+      "families": 11,
+      "added": "ohtuleht.ee",
+      "kept": 74843,
+      "share": 0.126977,
+      "gained": 732
+    },
+    {
+      "families": 12,
+      "added": "lounaeestlane.ee",
+      "kept": 75370,
+      "share": 0.127871,
+      "gained": 527
+    },
+    {
+      "families": 13,
+      "added": "tatoeba",
+      "kept": 75730,
+      "share": 0.128482,
+      "gained": 360
+    },
+    {
+      "families": 14,
+      "added": "gutenberg",
+      "kept": 75869,
+      "share": 0.128718,
+      "gained": 139
+    },
+    {
+      "families": 15,
+      "added": "eestinaine.ee",
+      "kept": 75991,
+      "share": 0.128925,
+      "gained": 122
+    },
+    {
+      "families": 16,
+      "added": "pealinn.ee",
+      "kept": 75991,
+      "share": 0.128925,
+      "gained": 0
+    }
+  ]
+}
